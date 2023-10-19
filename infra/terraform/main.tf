@@ -1,5 +1,5 @@
 resource "aws_secretsmanager_secret" "mixfast_secrets_manager" {
-  name        = "${var.name}-secrets-manager"
+  name        = "${var.name}_secrets_manager"
   description = "Secrets Manager da aplicação Mix Fast"
 
   tags = var.tags
